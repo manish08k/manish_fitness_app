@@ -1,0 +1,70 @@
+name: manishproject
+description: AI Powered Fitness App
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Core
+  shared_preferences: ^2.2.3
+  http: ^1.2.2
+  intl: ^0.19.0
+
+  # UI
+  flutter_heatmap_calendar: ^1.0.5
+  table_calendar: ^3.1.3
+  fl_chart: ^0.68.0
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+
+  razorpay_flutter: ^1.3.7
+
+  # Firebase
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  cloud_firestore: ^6.1.2
+
+  # Camera / ML
+  camera: ^0.11.0+2
+  google_mlkit_pose_detection: ^0.14.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Health
+  health: ^11.0.0
+
+  # Audio
+  flutter_tts: ^4.0.2
+  just_audio: ^0.9.40
+  audio_session: ^0.1.19
+
+  # Maps / Location
+  google_maps_flutter: ^2.9.0
+  geolocator: ^11.0.0
+
+  # Media
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+
+  # Ecommerce Scaling
+  provider: ^6.1.2
+  uuid: ^4.4.0
+  flutter_rating_bar: ^4.0.1
+  badges: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
