@@ -1,6 +1,6 @@
 <div align="center">
 
-#  NutraX
+#  Nutrax
 
 ### AI-Powered Fitness & Nutrition Tracking Platform
 
